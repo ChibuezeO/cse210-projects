@@ -1,0 +1,36 @@
+Hyacinth Chibueze Okoro.
+
+Most of the projects carried out in the software developement environment
+requires collaboration and teamwork involving diffrent contributions, changes
+and additions from participants and developers in the project. In this case,
+a system is needed to keep track of all modifications to a project by 
+participants and developers, when the modifications were made, by whom and for 
+what purpose.
+The system that does this assignment is the Version Control System. An example
+of a Version Control System is Git.
+
+The Version Control System or Git allows developers in a project to have full access
+to the project and project history. This provides so many advantages
+to the developers and team members and some of these advantages includes;
+1. Enabling developers to see the entire history of modifications to the 
+    project so as to follow up on all changes and decisions quickly.
+2. Allowing businesses using Version Control Systems like Git to break down barriers 
+    in communication between team member while also making it possible for
+    experts accross a business to collaborate on major projects even if they 
+    work in different time zones.
+
+For example, consider a team taxed with the responsibility of developing an 
+Enterprise Resource Management software which requires so many components
+and functions, Git will enable each team member to have a full copy of the
+project, follow all progress and changes made in the process of building the 
+software and make timely contributions as they collaborate to execute the 
+project.
+Developers use some basic Git commands to create and make modifications to
+their projects as they work on a project. Some of these commands includes;
+1. git status: which shows the status of changes made to a project.
+2. git commit: which saves a virtual copy to the project history and completes
+    the change-tacking process.
+and a lot more commands.
+
+With Git, collaboration in software developement is better, easier and more
+meaninful.
