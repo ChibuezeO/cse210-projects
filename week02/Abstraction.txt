@@ -1,0 +1,42 @@
+Hyacinth Chibueze Okoro: Abstraction.
+
+Life is all about ideas and most times, ideas can be complex and involve a lot of characteristics 
+and aspects; the approach, technique or process of turning these complex ideas into simple ones is
+what is known as Abstraction. When we practice abstraction, we remove some non-essential part or
+characteristics of an idea or something leaving only the essential ones whle still achieving the 
+inteneded result of the original idea.
+In programming, Abstraction is the simplification of a complex code into shorter lines of code that
+achieves the same result. With abstraction in programming, we hide complex implementation details 
+of a code and expose only the essential features or functionalities of the code or system.
+
+One of the major benefits of abstraction is that it simplifies interaction by focusing on what a
+code or program does rather than how it does it. This reduces complexity and improves maintainability
+by also hiding implementation details and also enables changes to be made to the underlying or 
+hidden code without affecting the code that uses the interface.
+
+A major application of abstraction is programming with classes where we create classes to handle
+a specific action where the implementation details of the class may be hidden somewhere else.
+For example, consider the code below:
+public class Resume
+{
+    public string _name;
+    public List<Job> _jobs = new List<Job>();
+    public void Display()
+    {
+        Console.WriteLine($"Name: {_name}");
+        Console.WriteLine("Jobs:");
+
+        foreach (Job job in _jobs)
+        {
+            job.Display();
+        }
+    }
+}
+In the code above, the class 'Resume' is being implemented with a few lines of code where the main
+details of the code cannot be found here. The class 'Resume' can be considered an abstraction of the
+entire code that displays the name and employment history of an individual.
+
+
+
+
+
