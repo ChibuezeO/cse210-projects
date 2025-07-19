@@ -1,5 +1,7 @@
-using System;
+/* To show creativity, I added two more prompt messages to the provided five. I also
+added conditions to check for invalid entry when a user is chosing from options 1 to 5.*/
 
+using System;
 class Program
 {
     static void Main(string[] args)
