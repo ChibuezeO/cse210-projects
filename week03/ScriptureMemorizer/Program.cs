@@ -31,10 +31,10 @@ class Program
         {
             Console.Clear();
             Console.WriteLine(scripture.GetDisplayText());
-            Console.WriteLine("\n Please Press Enter to hide words or type 'q' to exit:");
+            Console.WriteLine("\n Please Press Enter to hide words or type 'quit' to exit:");
             string input = Console.ReadLine();
 
-            if (input.ToLower() == "q")
+            if (input.ToLower() == "quit")
             {
                 break;
             }
