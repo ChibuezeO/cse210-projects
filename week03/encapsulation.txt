@@ -1,0 +1,68 @@
+Hyacinth Chibueze Okoro: Encapsulation.
+
+In most cases, progammers want to hide the details of how their codes or classes behave
+so other codes cannot see or manipulate these details. This act of enclosing the details of
+the behavior of a code often in a class is called Encapsulation. It helps restrict direct 
+access to some of a class' components, often by making data private and providing public 
+methods to access it. This meams that a class should completely contain all of the data used 
+to carry out it's task. Any other part of the program that it needs to perform the task or 
+something related to it should not try to access the data directly. Instead, they should 
+communicate with the class in question through methods, and it can access the data as necessary.
+
+One of the major benefit of Encapsulation is data protection. By hiding the details of a class's
+behavior, Encapsulation helps prevent unauthorized or unintended changes to a code, this also 
+improves the security of the code and the ability to properly maintain it. Also, it helps make 
+classes more understandable and generally makes programs to be more flexible and easy to modify.
+
+Encapsulation is very much applicable in software development. For example, in a banking system, 
+a BankAccount class can encapsulate account details like balance and account number, exposing 
+only methods like deposit() or withdraw() to interact with the balance, ensuring that the 
+balance cannot be manipulated directly. Also, consider this class below that is created to hold
+fractions.
+
+public class Fraction
+{
+    private int _top;
+    private int _bottom;
+
+    public Fraction()
+    {
+        _top = 1;
+        _bottom = 1;
+    }
+    public Fraction(int wholeNumber)
+    {
+        _top = wholeNumber;
+        _bottom = 1;
+    }
+
+    public Fraction(int top, int bottom)
+    {
+        _top = top;
+        _bottom = bottom;
+    }
+    public string GetFractionString()
+    {
+       
+        string text = $"{_top}/{_bottom}";
+        return text;
+    }
+    public double GetDecimalValue()
+    {
+        
+        return (double)_top / (double)_bottom;
+    }
+}
+
+The _top and _bottom attributes are private, preventing direct access from outside the class.
+Public methods GetFractionString() and GetDecimalValue() provide controlled access to _top, 
+ensuring valid operations of the code.
+This encapsulates the fraction's data, protecting it from invalid or unauthorized changes.
+
+
+
+
+
+
+
+

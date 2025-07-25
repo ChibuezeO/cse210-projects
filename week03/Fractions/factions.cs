@@ -1,6 +1,6 @@
 using System;
 
-public class Fraction
+ublic class Fraction
 {
     private int _top;
     private int _bottom;
@@ -11,7 +11,7 @@ public class Fraction
         _bottom = 1;
     }
     public Fraction(int wholeNumber)
-    {
+    {p
         _top = wholeNumber;
         _bottom = 1;
     }
